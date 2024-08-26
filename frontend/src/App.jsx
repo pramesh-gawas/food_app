@@ -2,7 +2,7 @@ import styled from "styled-components";
 import SearchResult from "./components/SearchResult";
 
 import { useEffect, useState } from "react";
-export const BASE_URL = "http://localhost:9000";
+export const BASE_URL = "http://localhost:3000";
 function App() {
   const [data, setData] = useState(null);
   const [loading, SetLoading] = useState(false);
